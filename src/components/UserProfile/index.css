@@ -1,0 +1,275 @@
+.user-profile-main-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-profile-container {
+  width: 90vw;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border-radius: 15px;
+  padding: 10px;
+}
+.background-image-profile-image-container {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  background-image: url('https://media-exp1.licdn.com/dms/image/C4D16AQGyY1FXeXQ-DA/profile-displaybackgroundimage-shrink_350_1400/0/1629718932490?e=1643241600&v=beta&t=AuS1D_yPsSOqNkRLaE7yO6kDSVFWkvwM5_0OsA54bk8');
+  background-size: cover;
+  width: 88vw;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  align-self: center;
+}
+.user-profile-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  border: 7px solid #00ffff;
+}
+.title-and-summary-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90vw;
+}
+.name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #a0f1f1;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.designation {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #a0f1f1;
+  line-height: 1;
+  margin-bottom: 0;
+}
+.icon-class {
+  color: #a0f1f1;
+  height: 25px;
+  width: 25px;
+}
+.location-info-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.location-info {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #a0f1f1;
+  margin-left: 15px;
+}
+.contact-info-container {
+  display: flex;
+  width: 60vw;
+  align-items: center;
+  justify-content: space-around;
+}
+.resume-container {
+  display: flex;
+  width: 90vw;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+.download-icon {
+  color: #a0f1f1;
+  height: 40px;
+  width: 40px;
+}
+.download-resume {
+  outline: none;
+  align-self: center;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #a0f1f1;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #a0f1f1;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.education-experience-container {
+  display: flex;
+  align-items: flex-start;
+  width: 85vw;
+  border-radius: 10px;
+  border: 1px solid #a0f1f1;
+  align-self: center;
+}
+.education-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50vw;
+  padding: 15px;
+}
+.education-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  order: 1;
+}
+.skill-container {
+  display: flex;
+  flex-direction: column;
+  order: 2;
+}
+.education-title {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  color: #a0f1f1;
+  line-height: 1;
+}
+.college-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  width: 40vw;
+  border: 1px solid #a0f1f1;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+.skills-list {
+  display: flex;
+  align-items: center;
+  padding: 25px;
+  width: 35vw;
+  border: 1px solid #a0f1f1;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  list-style-type: circle;
+}
+.skill-name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #a0f1f1;
+  margin-bottom: 15px;
+  padding-right: 15px;
+}
+.stream-name {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #a0f1f1;
+  margin-bottom: 0;
+}
+.year-cgpa-container {
+  display: flex;
+  align-items: center;
+  width: 25vw;
+  justify-content: space-between;
+}
+.year-bold {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #a0f1f1;
+  padding-left: 10px;
+  margin-bottom: 0;
+}
+
+.roles-and-responsibilities-list {
+  width: 35vw;
+}
+@media (max-width: 576px) {
+  .user-profile-container {
+    width: 95vw;
+  }
+  .background-image-profile-image-container {
+    width: 90vw;
+    height: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .user-profile-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+  }
+  .name {
+    font-size: 25px;
+  }
+  .designation {
+    font-size: 15px;
+    text-align: center;
+  }
+  .location-info-container {
+    margin-bottom: 0;
+  }
+  .contact-info-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .education-experience-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  .education-main-container {
+    width: 85vw;
+  }
+  .education-container {
+    width: 85vw;
+    order: 2;
+  }
+  .skill-container {
+    order: 1;
+    width: 80vw;
+  }
+  .college-container {
+    width: 80vw;
+  }
+  .skills-list {
+    width: 70vw;
+  }
+
+  .education-title {
+    font-size: 20px;
+  }
+  .stream-name {
+    font-size: 12;
+    font-weight: 450;
+  }
+  .year-bold {
+    font-size: 18px;
+  }
+  .year-cgpa-container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70vw;
+  }
+  .roles-and-responsibilities-list {
+    width: 70vw;
+  }
+}
